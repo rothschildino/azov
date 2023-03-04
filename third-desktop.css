@@ -1,0 +1,88 @@
+.how-to-play {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.general-how-to-play {
+    flex: 1;
+    
+}
+
+.launcher {
+    flex: 1.2;
+    width: 100%;
+}
+
+
+.text-how-to-play p {
+    font-weight: 300;
+    width: 100%;
+}
+
+.general-how-to-play {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+
+
+.launcher-photo {
+    width: 100%;
+}
+
+.general-how-to-play2 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buttons {
+    display: flex;
+    gap: 13px;
+    width: 100%;
+}
+
+
+@media (max-width:767px) {
+
+    .how-to-play {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .general-how-to-play {
+        width: 100%;
+    }
+
+    .text-how-to-play p {
+        width: 100%;
+    }
+
+    .buttons {
+        width: 100%;
+        flex-direction: column;
+
+    }
+
+    .general-how-to-play {
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+        
+    }
+
+    .text-how-to-play {
+        width: 100%;
+    }
+
+    .launcher-photo {
+        position: absolute;
+        left: -100%;
+    }
+
+}

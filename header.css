@@ -1,0 +1,41 @@
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header {
+    margin: 2rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+
+@media (max-width:1200px) {
+    
+    header {
+        margin: 1rem;
+    }
+
+
+    .logo h2 {
+        position: absolute;
+        top: -200%;
+    }
+
+    
+
+   
+   
+}
+

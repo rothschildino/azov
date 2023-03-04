@@ -1,0 +1,122 @@
+.general-2 {
+    margin-top: 30%;
+    margin-bottom: 25%;
+}
+
+
+.general-2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.describe {
+    flex: 1;
+    height: 100%;
+}
+
+
+.text-describe {
+    flex: 1;
+}
+
+
+.video {
+    flex: 2;
+}
+
+
+.text-describe p {
+    font-weight: 300;
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+.video {
+    
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.video2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+    
+
+    
+    
+}
+
+.solid {
+    width: 100%;
+    height: 100%;
+    background-color: darkblue;
+}
+
+.button-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-video p {
+    margin-left: 15px;
+}
+
+
+
+@media (max-width:767px) {
+
+    .button-video p {
+        position: absolute;
+        top: -100%;
+    }
+
+    .general-2 {
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .video {
+        
+        width: 100%;
+        
+    }
+    
+    .video2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    .general-2 {
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+
+    .but {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .buttons2 {
+        width: 100%;
+    }
+}
+
+
+  

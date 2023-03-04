@@ -1,0 +1,153 @@
+.button-menu {
+    border-radius: 10px;
+
+    font-size: 15px;
+    text-align: middle;
+    font-weight: bold;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    border: none;
+    background-image: linear-gradient(rgba(21, 253, 149, 1), rgba(2, 217, 120, 1));
+
+    box-shadow: 0px 3px rgba(0, 134, 73, 1);
+    cursor: pointer;
+
+}
+
+
+.button-main {
+    border-radius: 10px;
+
+    font-size: 20px;
+    text-align: middle;
+    font-weight: bold;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    border: none;
+    background-image: linear-gradient(rgba(21, 253, 149, 1), rgba(2, 217, 120, 1));
+
+    box-shadow: 0px 3px rgba(0, 134, 73, 1);
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+}
+
+
+.button-video2 {
+    border-radius: 10px;
+
+    
+    text-align: middle;
+    
+
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    border: none;
+    background-image: linear-gradient(rgba(21, 253, 149, 1), rgba(2, 217, 120, 1));
+
+    box-shadow: 0px 3px rgba(0, 134, 73, 1);
+
+    cursor: pointer;
+}
+
+
+.button-footer {
+    border-color: rgba(21, 253, 149, 1);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+
+    color: white;
+    background-color: transparent;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: 0.5s ease;
+
+    cursor: pointer;
+    
+}
+
+
+
+
+.button-footer:hover {
+    background-color: rgba(21, 253, 149, 1);
+    color: black;
+}
+
+
+.menubtn {
+    
+    z-index: 10;
+}
+
+.button-main2 {
+    border-radius: 10px;
+
+    font-size: 20px;
+    text-align: middle;
+    font-weight: bold;
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    font-family: 'Montserrat', sans-serif;
+
+    border: none;
+    background-image: linear-gradient(rgba(21, 253, 149, 1), rgba(2, 217, 120, 1));
+
+    box-shadow: 0px 3px rgba(0, 134, 73, 1);
+
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+
+@media (max-width:1200px) {
+    
+    .button-footer {
+        border-color: rgba(21, 253, 149, 1);
+        border-style: solid;
+        border-width: 1px;
+        border-radius: 5px;
+    
+        color: white;
+        background-color: transparent;
+        padding: 15px 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    
+        cursor: pointer;
+
+        font-size: 15px;
+
+        text-transform: uppercase;
+        color: rgba(21, 253, 149, 1);
+        
+    }
+   
+    
+   
+}

@@ -1,0 +1,144 @@
+.general-footer {
+    
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+    
+    
+}
+
+footer {
+    margin-top: 300px;
+    background-color: rgba(19, 21, 33, 1);
+    
+
+    width: 100%;
+}
+
+.butt {
+    display: flex;
+    gap: 10px;
+}
+
+
+.footer-buttons {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+}
+
+.discover {
+    flex: 2;
+
+    background-color: transparent;
+
+    
+
+    display: flex;
+    justify-content: flex-start;
+
+    align-items: center;
+}
+
+.discover-text {
+    
+    width: 100%;
+}
+
+.discover-text a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    
+}
+
+.discover-text a:hover {
+    color: black;
+    transition: 0.5s ease;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+li:hover {
+    background-color: white;
+    transition: 0.5s ease;
+    
+}
+
+
+.follow {
+    flex: 1;
+    
+}
+
+
+footer p {
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    gap: 20%;
+    max-width: 100%;
+}
+
+
+@media (max-width:767px) {
+
+    .general-footer {
+        flex-direction: column;
+    }
+
+    .footer-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        
+    }
+
+    .discover-text nav {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
+
+        font-size: 20px;
+
+        gap: 30px;
+    }
+
+    .discover-text {
+        
+        text-align: center;
+    }
+
+    .follow-text {
+        text-align: center;
+    }
+
+    .butt {
+        flex-direction: column;
+    } 
+
+  }
